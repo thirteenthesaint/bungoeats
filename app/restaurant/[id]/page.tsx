@@ -18,11 +18,11 @@ export default function RestaurantPage() {
   const { user } = useAuth();
   const [addingFavorite, setAddingFavorite] = useState(false);
 
-  const restaurantId = params.id as string;
-  const restaurant = restaurants.find(r => r.id === restaurantId);
-  const menu = menuItems.filter(item => item.restaurantId === restaurantId);
+  const slug = params.id as string;
+  const restaurant = restaurants.find(r => r.slug === slug);
+  const menu = restaurant ? menuItems.filter(item => item.restaurantId === restaurant.id) : [];
 
-  const isFavorite = user?.favourites?.includes(restaurantId) || false;
+  const isFavorite = restaurant ? (user?.favourites?.includes(restaurant.id) || false) : false;
   const canAddFavorite = !isFavorite && (user?.favourites?.length || 0) < 3;
 
   if (!restaurant) {
@@ -44,13 +44,15 @@ export default function RestaurantPage() {
     try {
       const userRef = doc(db, 'users', user.uid);
       
+      if (!restaurant) return;
+      
       if (isFavorite) {
         await updateDoc(userRef, {
-          favourites: arrayRemove(restaurantId)
+          favourites: arrayRemove(restaurant.id)
         });
       } else if (canAddFavorite) {
         await updateDoc(userRef, {
-          favourites: arrayUnion(restaurantId)
+          favourites: arrayUnion(restaurant.id)
         });
       }
     } catch (error) {
