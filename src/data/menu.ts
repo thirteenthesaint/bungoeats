@@ -61,6 +61,36 @@ export const menuItems: MenuItem[] = [
     description: 'Assorted sodas',
     category: 'Drinks'
   },
+  {
+    id: 'snackit-6',
+    name: 'Boiled Eggs (2 pcs)',
+    price: 50,
+    image: '/images/boiled-eggs.jpg',
+    restaurantId: 'snackit',
+    restaurantName: 'SnackIt!',
+    description: 'Fresh boiled eggs',
+    category: 'Snacks'
+  },
+  {
+    id: 'snackit-7',
+    name: 'Chapati Wrap',
+    price: 120,
+    image: '/images/chapati-wrap.jpg',
+    restaurantId: 'snackit',
+    restaurantName: 'SnackIt!',
+    description: 'Chapati with beef and veggies',
+    category: 'Street Food'
+  },
+  {
+    id: 'snackit-8',
+    name: 'Fresh Juice',
+    price: 80,
+    image: '/images/fresh-juice.jpg',
+    restaurantId: 'snackit',
+    restaurantName: 'SnackIt!',
+    description: 'Assorted fresh fruit juice',
+    category: 'Drinks'
+  },
 
   // Noor Restaurant Menu
   {
@@ -101,6 +131,46 @@ export const menuItems: MenuItem[] = [
     restaurantId: 'noor',
     restaurantName: 'Noor Restaurant Bungoma',
     description: 'Fresh fish in creamy coconut sauce',
+    category: 'Swahili'
+  },
+  {
+    id: 'noor-5',
+    name: 'Samaki wa Kupaka',
+    price: 380,
+    image: '/images/samaki-kupaka.jpg',
+    restaurantId: 'noor',
+    restaurantName: 'Noor Restaurant Bungoma',
+    description: 'Grilled fish with coconut curry',
+    category: 'Swahili'
+  },
+  {
+    id: 'noor-6',
+    name: 'Beef Pilau',
+    price: 250,
+    image: '/images/beef-pilau.jpg',
+    restaurantId: 'noor',
+    restaurantName: 'Noor Restaurant Bungoma',
+    description: 'Spiced rice with tender beef',
+    category: 'Rice Dishes'
+  },
+  {
+    id: 'noor-7',
+    name: 'Mahamri (4 pcs)',
+    price: 80,
+    image: '/images/mahamri.jpg',
+    restaurantId: 'noor',
+    restaurantName: 'Noor Restaurant Bungoma',
+    description: 'Sweet coastal donuts',
+    category: 'Traditional'
+  },
+  {
+    id: 'noor-8',
+    name: 'Viazi Karai',
+    price: 120,
+    image: '/images/viazi-karai.jpg',
+    restaurantId: 'noor',
+    restaurantName: 'Noor Restaurant Bungoma',
+    description: 'Spiced potato fritters',
     category: 'Swahili'
   },
 
@@ -145,6 +215,46 @@ export const menuItems: MenuItem[] = [
     description: 'Ugali with grilled chicken',
     category: 'Local Dishes'
   },
+  {
+    id: 'tuutis-5',
+    name: 'Full Chicken',
+    price: 1000,
+    image: '/images/full-chicken.jpg',
+    restaurantId: 'tuutis',
+    restaurantName: 'Tuutis Restaurant',
+    description: 'Whole grilled chicken with sides',
+    category: 'Chicken'
+  },
+  {
+    id: 'tuutis-6',
+    name: 'Chicken Stew & Rice',
+    price: 280,
+    image: '/images/chicken-stew.jpg',
+    restaurantId: 'tuutis',
+    restaurantName: 'Tuutis Restaurant',
+    description: 'Tender chicken stew with rice',
+    category: 'Local Dishes'
+  },
+  {
+    id: 'tuutis-7',
+    name: 'Grilled Chicken Thighs (2 pcs)',
+    price: 350,
+    image: '/images/chicken-thighs.jpg',
+    restaurantId: 'tuutis',
+    restaurantName: 'Tuutis Restaurant',
+    description: 'Juicy grilled chicken thighs',
+    category: 'Chicken'
+  },
+  {
+    id: 'tuutis-8',
+    name: 'Mukimo & Chicken',
+    price: 340,
+    image: '/images/mukimo-chicken.jpg',
+    restaurantId: 'tuutis',
+    restaurantName: 'Tuutis Restaurant',
+    description: 'Mashed potatoes with greens and chicken',
+    category: 'Local Dishes'
+  },
 
   // Roma Cafe Menu
   {
@@ -186,6 +296,46 @@ export const menuItems: MenuItem[] = [
     restaurantName: 'Roma Cafe',
     description: 'Fresh brewed cappuccino',
     category: 'Coffee'
+  },
+  {
+    id: 'roma-5',
+    name: 'Hawaiian Pizza',
+    price: 500,
+    image: '/images/hawaiian-pizza.jpg',
+    restaurantId: 'roma',
+    restaurantName: 'Roma Cafe',
+    description: 'Pizza with ham and pineapple',
+    category: 'Pizza'
+  },
+  {
+    id: 'roma-6',
+    name: 'Carbonara Pasta',
+    price: 420,
+    image: '/images/carbonara.jpg',
+    restaurantId: 'roma',
+    restaurantName: 'Roma Cafe',
+    description: 'Creamy pasta with bacon',
+    category: 'Pasta'
+  },
+  {
+    id: 'roma-7',
+    name: 'Latte',
+    price: 140,
+    image: '/images/latte.jpg',
+    restaurantId: 'roma',
+    restaurantName: 'Roma Cafe',
+    description: 'Smooth espresso with steamed milk',
+    category: 'Coffee'
+  },
+  {
+    id: 'roma-8',
+    name: 'Tiramisu',
+    price: 250,
+    image: '/images/tiramisu.jpg',
+    restaurantId: 'roma',
+    restaurantName: 'Roma Cafe',
+    description: 'Classic Italian dessert',
+    category: 'Dessert'
   },
 
   // Solitaire Restaurant Menu
@@ -229,6 +379,46 @@ export const menuItems: MenuItem[] = [
     description: 'Fries with cheese and toppings',
     category: 'Fries'
   },
+  {
+    id: 'solitaire-5',
+    name: 'Double Burger',
+    price: 450,
+    image: '/images/double-burger.jpg',
+    restaurantId: 'solitaire',
+    restaurantName: 'Solitaire Restaurant',
+    description: 'Double beef patty burger',
+    category: 'Burgers'
+  },
+  {
+    id: 'solitaire-6',
+    name: 'Chicken Nuggets (8 pcs)',
+    price: 280,
+    image: '/images/chicken-nuggets.jpg',
+    restaurantId: 'solitaire',
+    restaurantName: 'Solitaire Restaurant',
+    description: 'Crispy chicken nuggets',
+    category: 'Fast Food'
+  },
+  {
+    id: 'solitaire-7',
+    name: 'Onion Rings',
+    price: 180,
+    image: '/images/onion-rings.jpg',
+    restaurantId: 'solitaire',
+    restaurantName: 'Solitaire Restaurant',
+    description: 'Crispy battered onion rings',
+    category: 'Fries'
+  },
+  {
+    id: 'solitaire-8',
+    name: 'Milkshake',
+    price: 200,
+    image: '/images/milkshake.jpg',
+    restaurantId: 'solitaire',
+    restaurantName: 'Solitaire Restaurant',
+    description: 'Thick creamy milkshake',
+    category: 'Drinks'
+  },
 
   // Al Jazeera Restaurant Menu
   {
@@ -271,6 +461,46 @@ export const menuItems: MenuItem[] = [
     description: 'Soft layered chapati',
     category: 'Halal'
   },
+  {
+    id: 'aljazeera-5',
+    name: 'Goat Stew & Ugali',
+    price: 300,
+    image: '/images/goat-stew.jpg',
+    restaurantId: 'aljazeera',
+    restaurantName: 'Al Jazeera Restaurant',
+    description: 'Tender goat stew with ugali',
+    category: 'Stews'
+  },
+  {
+    id: 'aljazeera-6',
+    name: 'Beans & Rice',
+    price: 180,
+    image: '/images/beans-rice.jpg',
+    restaurantId: 'aljazeera',
+    restaurantName: 'Al Jazeera Restaurant',
+    description: 'Maharagwe with rice',
+    category: 'Halal'
+  },
+  {
+    id: 'aljazeera-7',
+    name: 'Githeri',
+    price: 150,
+    image: '/images/githeri.jpg',
+    restaurantId: 'aljazeera',
+    restaurantName: 'Al Jazeera Restaurant',
+    description: 'Mixed beans and maize',
+    category: 'Stews'
+  },
+  {
+    id: 'aljazeera-8',
+    name: 'Chicken Pilau',
+    price: 270,
+    image: '/images/chicken-pilau.jpg',
+    restaurantId: 'aljazeera',
+    restaurantName: 'Al Jazeera Restaurant',
+    description: 'Spiced rice with chicken',
+    category: 'Rice'
+  },
 
   // Ekero Choma Place Menu
   {
@@ -312,5 +542,45 @@ export const menuItems: MenuItem[] = [
     restaurantName: 'Ekero Choma Place',
     description: 'Fresh tomato and onion salad',
     category: 'Grill'
+  },
+  {
+    id: 'ekero-5',
+    name: 'Chicken Choma (1/2 kg)',
+    price: 450,
+    image: '/images/chicken-choma.jpg',
+    restaurantId: 'ekero',
+    restaurantName: 'Ekero Choma Place',
+    description: 'Grilled chicken',
+    category: 'Nyama Choma'
+  },
+  {
+    id: 'ekero-6',
+    name: 'Ugali',
+    price: 50,
+    image: '/images/ugali.jpg',
+    restaurantId: 'ekero',
+    restaurantName: 'Ekero Choma Place',
+    description: 'Traditional maize meal',
+    category: 'Grill'
+  },
+  {
+    id: 'ekero-7',
+    name: 'Mukimo',
+    price: 100,
+    image: '/images/mukimo.jpg',
+    restaurantId: 'ekero',
+    restaurantName: 'Ekero Choma Place',
+    description: 'Mashed potatoes with greens',
+    category: 'Grill'
+  },
+  {
+    id: 'ekero-8',
+    name: 'Mixed Grill Platter',
+    price: 800,
+    image: '/images/mixed-grill.jpg',
+    restaurantId: 'ekero',
+    restaurantName: 'Ekero Choma Place',
+    description: 'Assorted grilled meats',
+    category: 'BBQ'
   }
 ];
